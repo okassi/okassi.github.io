@@ -264,6 +264,20 @@ a:hover {
     font-style: italic;
 }
 
+.pub-citation a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.pub-citation a:hover {
+    color: var(--accent-green);
+}
+
+.pub-citation a:hover em {
+    color: var(--accent-green);
+}
+
 /* Misc Section */
 .misc-content {
     margin-bottom: 3rem;
