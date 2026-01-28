@@ -1,15 +1,18 @@
-/* Dark Terminal Theme */
+/* RStudio Night Owl Dark Theme */
 :root {
-    --bg-primary: #0a0a0a;
-    --bg-secondary: #111111;
-    --bg-tertiary: #1a1a1a;
-    --text-primary: #e0e0e0;
-    --text-secondary: #888888;
-    --text-muted: #555555;
-    --accent-green: #00ff88;
-    --accent-green-dim: #00cc6a;
-    --accent-cyan: #00d4ff;
-    --border-color: #2a2a2a;
+    --bg-primary: #011627;
+    --bg-secondary: #01111d;
+    --bg-tertiary: #012a4a;
+    --text-primary: #d6deeb;
+    --text-secondary: #637777;
+    --text-muted: #5f7e97;
+    --accent-green: #addb67;
+    --accent-green-dim: #C5E478;
+    --accent-cyan: #7fdbca;
+    --accent-blue: #82aaff;
+    --accent-purple: #c792ea;
+    --accent-orange: #f78c6c;
+    --border-color: #1d3b53;
     --font-mono: 'JetBrains Mono', 'Fira Code', 'Monaco', monospace;
 }
 
@@ -43,7 +46,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(10, 10, 10, 0.95);
+    background: rgba(1, 22, 39, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     z-index: 1000;
@@ -183,13 +186,13 @@ h3:first-of-type {
 
 /* Links */
 a {
-    color: var(--accent-cyan);
+    color: var(--accent-blue);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 a:hover {
-    color: var(--accent-green);
+    color: var(--accent-cyan);
 }
 
 /* Button */
